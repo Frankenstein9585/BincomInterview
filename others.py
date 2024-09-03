@@ -33,7 +33,7 @@ def binary_to_decimal() -> int:
     return base10_value
 
 
-def fibonacci_sum():
+def fibonacci_sum() -> int:
     fib_list = [0, 1]
     for i in range(2, 50):
         next_value = fib_list[i - 1] + fib_list[i - 2]
